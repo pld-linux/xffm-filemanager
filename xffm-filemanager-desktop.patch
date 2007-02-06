@@ -1,0 +1,50 @@
+diff -urN xffm-filemanager-4.5.0/Xffm-filemanager.desktop xffm-filemanager-4.5.0.new/Xffm-filemanager.desktop
+--- xffm-filemanager-4.5.0/Xffm-filemanager.desktop	2006-05-23 17:37:19.000000000 +0200
++++ xffm-filemanager-4.5.0.new/Xffm-filemanager.desktop	2007-02-06 10:34:39.000000000 +0100
+@@ -27,5 +27,5 @@
+ Exec=xffm-iconview
+ Icon=xffm-system
+ Terminal=false
+-Categories=Core;Filemanager;
++Categories=Utility;FileManager;
+ StartupNotify=false
+diff -urN xffm-filemanager-4.5.0/Xffm-find.desktop xffm-filemanager-4.5.0.new/Xffm-find.desktop
+--- xffm-filemanager-4.5.0/Xffm-find.desktop	2006-05-23 17:37:20.000000000 +0200
++++ xffm-filemanager-4.5.0.new/Xffm-find.desktop	2007-02-06 10:37:04.000000000 +0100
+@@ -45,5 +45,5 @@
+ Exec=xffm-find
+ Icon=stock_find
+ Terminal=false
+-Categories=Core;Filemanager;Utility;
++Categories=Utility;
+ StartupNotify=false
+diff -urN xffm-filemanager-4.5.0/Xffm-iconview.desktop xffm-filemanager-4.5.0.new/Xffm-iconview.desktop
+--- xffm-filemanager-4.5.0/Xffm-iconview.desktop	2006-05-23 17:37:20.000000000 +0200
++++ xffm-filemanager-4.5.0.new/Xffm-iconview.desktop	2007-02-06 10:37:19.000000000 +0100
+@@ -28,5 +28,5 @@
+ Exec=xffm-iconview $HOME
+ Icon=xffm-iconview
+ Terminal=false
+-Categories=Core;Filemanager;
++Categories=Utility;FileManager;
+ StartupNotify=false
+diff -urN xffm-filemanager-4.5.0/Xffm-root.desktop xffm-filemanager-4.5.0.new/Xffm-root.desktop
+--- xffm-filemanager-4.5.0/Xffm-root.desktop	2006-05-23 17:37:20.000000000 +0200
++++ xffm-filemanager-4.5.0.new/Xffm-root.desktop	2007-02-06 10:38:22.000000000 +0100
+@@ -21,5 +21,5 @@
+ Exec=xffm-root
+ Icon=xffm-root
+ Terminal=false
+-Categories=Core;Utility;
++Categories=Utility;
+ StartupNotify=false
+diff -urN xffm-filemanager-4.5.0/Xffm-treeview.desktop xffm-filemanager-4.5.0.new/Xffm-treeview.desktop
+--- xffm-filemanager-4.5.0/Xffm-treeview.desktop	2006-05-23 17:37:20.000000000 +0200
++++ xffm-filemanager-4.5.0.new/Xffm-treeview.desktop	2007-02-06 10:38:11.000000000 +0100
+@@ -71,5 +71,5 @@
+ Exec=xffm-treeview
+ Icon=stock_index
+ Terminal=false
+-Categories=Core;Filemanager;
++Categories=Utility;FileManager;
+ StartupNotify=false
