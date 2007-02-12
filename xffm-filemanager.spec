@@ -1,5 +1,5 @@
 Summary:	Xffm-filemanager - filemanager
-Summary(pl):	Xffm-filemanager - menad¿er plików
+Summary(pl.UTF-8):   Xffm-filemanager - menadÅ¼er plikÃ³w
 Name:		xffm-filemanager
 Version:	4.5.0
 Release:	1
@@ -27,15 +27,15 @@ The Xffm-filemanager is a filemanager with three different GUI's:
 - a desktop view for ~/Desktop folder (or other)
 - a treeview
 
-%description -l pl
-Xffm-filemanager jest zarz±dc± plików z trzema ró¿nymi GUI:
+%description -l pl.UTF-8
+Xffm-filemanager jest zarzÄ…dcÄ… plikÃ³w z trzema rÃ³Å¼nymi GUI:
 - przestronny widok ikon
 - widok biurka dla katalogu ~/Desktop (lub innego)
 - widok drzewa
 
 %package devel
 Summary:	Xffm-filemanager development files
-Summary(pl):	Pliki programistyczne Xffm-filemanager
+Summary(pl.UTF-8):   Pliki programistyczne Xffm-filemanager
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	xffm-gui-devel >= 4.5.0
@@ -43,7 +43,7 @@ Requires:	xffm-gui-devel >= 4.5.0
 %description devel
 Development files for Xffm-filemanager.
 
-%description devel -l pl
+%description devel -l pl.UTF-8
 Pliki programistyczne dla Xffm-filemanager.
 
 %prep
