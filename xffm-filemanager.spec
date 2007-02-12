@@ -1,5 +1,5 @@
 Summary:	Xffm-filemanager - filemanager
-Summary(pl.UTF-8):   Xffm-filemanager - menadżer plików
+Summary(pl.UTF-8):	Xffm-filemanager - menadżer plików
 Name:		xffm-filemanager
 Version:	4.5.0
 Release:	1
@@ -35,7 +35,7 @@ Xffm-filemanager jest zarządcą plików z trzema różnymi GUI:
 
 %package devel
 Summary:	Xffm-filemanager development files
-Summary(pl.UTF-8):   Pliki programistyczne Xffm-filemanager
+Summary(pl.UTF-8):	Pliki programistyczne Xffm-filemanager
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	xffm-gui-devel >= 4.5.0
